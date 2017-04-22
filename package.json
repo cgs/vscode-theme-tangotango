@@ -1,0 +1,22 @@
+{
+    "name": "tangotango",
+    "displayName": "tangotango",
+    "description": "Port of Emacs tangotango theme",
+    "version": "0.5.0",
+    "publisher": "meatrobot",
+    "engines": {
+        "vscode": "^1.11.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "tangotango",
+                "uiTheme": "vs-dark",
+                "path": "./themes/tangotango.tmTheme"
+            }
+        ]
+    }
+}
